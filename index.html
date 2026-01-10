@@ -3,18 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Normalize Activity</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-</head>
-<body>
-    
-    <h1>CSS Normalize Activity</h1>
-    <p>This is a paragraph</p>
+    <meta name="description" content="WDD 231 Home page">
+    <meta name="author" content="Irma Valeria Natalia Rodriguez Cárdenas">
+    <title>WDD 231 Home page</title>
 
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-    </ul>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/bluesky.svg" alt="Logo" width="512" height="512">
+        <span>Irma's Site Title</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <div class="home-grid">
+
+            <section class="about">
+                <h2>About me</h2>
+                <p>My name is Irma Rodriguez. I am from Colombia, and I live in Santander. I love learning new things, which is why I have many hobbies, such as crocheting, drawing, painting, walking, and watching movies or series. I am currently finishing my first certificate in programming and web design. I am excited to keep learning new things so I can develop my skills and become a great professional.</p>
+            </section>
+
+            <section class="photo">
+                <h2>Student photo</h2>
+                <img src="images/myphoto.jpeg" alt="My photo">
+            </section>
+
+            <section class="courses">
+                <h2>Web Certificate Courses</h2>
+
+                <div class="course-buttons">
+                    <button id="all">All</button>
+                    <button id="cse">CSE</button>
+                    <button id="wdd">WDD</button>
+                </div>
+
+                <ul class="course-list">
+                    <li class="course wdd">WDD 130</li>
+                    <li class="course wdd">WDD 131</li>
+                    <li class="course wdd">WDD 231</li>
+
+                    <li class="course cse">CSE 110</li>
+                    <li class="course cse">CSE 111</li>
+                    <li class="course cse">CSE 210</li>
+                </ul>
+
+                <p class="credits" id="total-credits">The total credits for courses listed above is 6</p>
+
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="social">
+            <a href="https://github.com/" target="_blank"><img src="images/github.svg" alt="Github" width="16" height="16"></a>
+            <a href="https://co.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="Linkedin" width="16" height="16"></a>
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="16" height="16"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.svg" alt="Instagram" width="16" height="16"></a>
+        </div>
+
+        <p>&copy <span id="currentyear"></span> | Irma Valeria Natalia Rodríguez Cárdenas | Colombia</p>
+        <p id="lastModified"></p>
+    </footer>
 
 </body>
 </html>
