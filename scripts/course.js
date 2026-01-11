@@ -1,56 +1,66 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const allButton = document.querySelector("#all");
-    const wddButton = document.querySelector("#wdd");
-    const cseButton = document.querySelector("#cse");
+  const courses = [
+    { code: "WDD 130", subject: "wdd", credits: 2, completed: true },
+    { code: "WDD 131", subject: "wdd", credits: 2, completed: true },
+    { code: "WDD 231", subject: "wdd", credits: 2, completed: false },
+    { code: "CSE 110", subject: "cse", credits: 2, completed: true },
+    { code: "CSE 111", subject: "cse", credits: 2, completed: true },
+    { code: "CSE 210", subject: "cse", credits: 2, completed: true }
+  ];
 
-    const courses = document.querySelectorAll(".course");
-    const creditText = document.querySelector("#total-credits");
+  const courseList = document.querySelector("#course-list");
+  const creditText = document.querySelector("#total-credits");
 
-    function updateCredits() {
-        let visibleCourses = 0;
+  const allButton = document.querySelector("#all");
+  const wddButton = document.querySelector("#wdd");
+  const cseButton = document.querySelector("#cse");
 
-        courses.forEach(course => {
-            if (course.style.display !== "none") {
-                visibleCourses++;
-            }
-        });
+  function displayCourses(courseArray) {
+    courseList.innerHTML = "";
 
-        const totalCredits = visibleCourses * 2;
+    courseArray.forEach(course => {
+      const li = document.createElement("li");
+      li.classList.add("course", course.subject);
 
-        creditText.textContent =
-            `The total credits for courses listed above is ${totalCredits}`;
-    }
+      li.textContent = course.completed
+        ? `${course.code} ✔`
+        : course.code;
 
-    allButton.addEventListener("click", () => {
-        courses.forEach(course => {
-            course.style.display = "block";
-        });
-        updateCredits();
+      courseList.appendChild(li);
     });
 
-    wddButton.addEventListener("click", () => {
-        courses.forEach(course => {
-            if (course.classList.contains("wdd")) {
-                course.style.display = "block";
-            } else {
-                course.style.display = "none";
-            }
-        });
-        updateCredits();
-    });
+    updateCredits(courseArray);
+  }
 
-    cseButton.addEventListener("click", () => {
-        courses.forEach(course => {
-            if (course.classList.contains("cse")) {
-                course.style.display = "block";
-            } else {
-                course.style.display = "none";
-            }
-        });
-        updateCredits();
-    });
+  function updateCredits(courseArray) {
+    const totalCredits = courseArray.reduce(
+      (sum, course) => sum + course.credits,
+      0
+    );
 
-    updateCredits();
+    creditText.textContent =
+      `The total credits for courses listed above is ${totalCredits}`;
+  }
+
+  allButton.addEventListener("click", () => {
+    displayCourses(courses);
+  });
+
+  wddButton.addEventListener("click", () => {
+    const wddCourses = courses.filter(
+      course => course.subject === "wdd"
+    );
+    displayCourses(wddCourses);
+  });
+
+  cseButton.addEventListener("click", () => {
+    const cseCourses = courses.filter(
+      course => course.subject === "cse"
+    );
+    displayCourses(cseCourses);
+  });
+
+  displayCourses(courses);
 
 });
