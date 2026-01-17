@@ -1,0 +1,23 @@
+{
+    "family_name": "Santos",
+    "move_in_date": "2001-03-12",
+    "number_of_people": 3,
+    "visited_by_the_bishop": true,
+    "family_members": [
+        {
+            "name": "Joel Smith",
+            "gender": "Male",
+            "birthday": "1995-04-08"
+        },
+        {
+            "name": "Laura Simth",
+            "gender": "Female",
+            "birthday": "1997-12-01"
+        },
+        {
+            "name": "Lisa Smith",
+            "gender": "Female",
+            "birthday": "2025-01-04"
+        }
+    ]
+}
