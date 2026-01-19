@@ -1,0 +1,71 @@
+[
+    {
+        "name":"Exito",
+        "address":"Bucaramanga, Santander, Colombia",
+        "phone":"+57 123 123 1234",
+        "website":"https://www.exito.com",
+        "image":"exito.webp",
+        "membership": 3,
+        "description":"Retail store offering groceries, household products, and general merchandise"
+    },
+
+    {
+        "name":"Claro Colombia",
+        "address":"Bucaramanga, Santander, Colombia",
+        "phone":"+57 345 345 5678",
+        "website":"https://www.claro.com.co/",
+        "image":"claro.webp",
+        "membership": 3,
+        "description":"Telecommunications company providing mobile, internet, and TV services."
+    },
+
+    {
+        "name":"Parque Nacional del Chicamocha",
+        "address":"Km 54 vía Bucaramanga - San Gil, Santander",
+        "phone":"+57 678 234 2345",
+        "website":"https://www.panachi.com.co/",
+        "image":"parque-nal-chicamocha.webp",
+        "membership": 2,
+        "description":"Major tourist park showcasing Santander natural landscapes and culture."
+    },
+
+    {
+        "name":"Cajasan",
+        "address":"Bucaramanga, Santander, Colombia",
+        "phone":"+57 345 765 8765",
+        "website":"https://www.cajasan.com/",
+        "image":"cajasan.webp",
+        "membership": 3,
+        "description":"Family compensation fund providing social, educational, and recreational services."
+    },
+
+    {
+        "name":"Copetran",
+        "address":"Bucaramanga, Santander, Colombia",
+        "phone":"+57 098 323 7654",
+        "website":"https://www.copetran.com.co/",
+        "image":"copetran.webp",
+        "membership": 3,
+        "description":"Transportation company offering intercity bus services across Colombia."
+    },
+
+    {
+        "name":"Hotel Chicamocha",
+        "address":"Calle 34 #31-24, Bucaramanga, Santander",
+        "phone":"+57 876 567 3856",
+        "website":"https://www.hotelchicamocha.com/",
+        "image":"hotel-chicamocha.webp",
+        "membership": 3,
+        "description":"Hotel offering accommodation, events, and business services in Bucaramanga."
+    },
+
+    {
+        "name":"Crepes & Waffles",
+        "address":"Bucaramanga, Santander, Colombia",
+        "phone":"+57 543 7890",
+        "website":"https://crepesywaffles.com/",
+        "image":"crepes-wafles.webp",
+        "membership": 1,
+        "description":"Restaurant known for crepes, waffles, and casual dining."
+    }
+]
