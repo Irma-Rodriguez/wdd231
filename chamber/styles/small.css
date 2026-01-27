@@ -155,6 +155,11 @@ main {
     margin-left: 0.5rem;
 }
 
+#weather-icon {
+    display: block;
+    margin: 0 auto; 
+}
+
 .weather-card .weather-info p {
     margin: 0.25rem 0;
 }
