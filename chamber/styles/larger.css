@@ -31,6 +31,42 @@
         text-decoration: underline;
     }
 
+    .hero-join {
+        font-size: 1.1rem;
+        padding: 1rem 1.75rem;
+    }
+
+    .home-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 1.5rem;
+    }
+    .info-card {
+        flex: 1;
+    }
+
+    .weather-card .weather-container {
+        justify-content: flex-start;
+    }
+
+    #spotlight-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .spotlight-body {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+
+    .spotlight-info {
+        text-align: left;
+    }
+
     #members.grid-view {
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;

@@ -89,12 +89,157 @@ light blue: rgb(61, 97, 146)
 
 /******** Main Cards ********/
 
+body, main, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
 main {
-    padding: 1rem;
+    padding: 0;
+}
+
+.hero {
+    margin: 0;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-join {
+    position: absolute;
+    bottom: 3rem; 
+    right: 1.5rem;   
+    background-color: #192b44;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.hero-join:hover {
+    background-color: rgb(61, 97, 146);
+}
+
+.home-title {
+    margin: 1rem; 
+}
+
+.weather-card .weather-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.weather-card .weather-icon img {
+    width: 100px;
+    height: 100px;
+    margin-left: 0.5rem;
+}
+
+.weather-card .weather-info p {
+    margin: 0.25rem 0;
+}
+
+.weather-info p {
+    margin: 0.1rem 0;
+    padding: 0;
+    line-height: 1.2;
+    font-size: 0.9rem;
 }
 
 #members {
     margin-bottom: 1.5rem; 
+}
+
+.info-card {
+    margin: 0.5rem;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+
+}
+
+.info-card h2 {
+    background-color: #192b44;
+    color: white;
+    padding: 0.75rem 1rem;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.info-card ul,
+.info-card p {
+    padding: 0 2rem;
+
+}
+
+.info-card ul {
+    list-style: none;
+}
+
+.info-card li {
+    margin-bottom: 0.5rem;
+}
+
+.spotlight-section {
+    margin: 1rem;
+}
+
+#spotlight-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.spotlight-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.spotlight-title {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: .75rem;
+    color: #192b44;
+}
+
+.spotlight-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .75rem;
+}
+
+.spotlight-img img {
+    max-width: 140px;
+    height: auto;
+}
+
+.spotlight-info {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.spotlight-info p {
+    margin: .25rem 0;
+}
+
+.spotlight-info a {
+    display: inline-block;
+    margin-top: .5rem;
+    font-weight: 700;
+    color: #192b44;
 }
 
 .page-title {
