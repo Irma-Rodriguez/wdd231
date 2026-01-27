@@ -358,6 +358,7 @@ main {
     background-color: #192b44;
     color: white;
     padding: 2rem 1rem;
+    min-height: 200px; 
 }
 
 .footer-content {

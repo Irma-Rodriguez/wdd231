@@ -15,8 +15,8 @@
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/spotslights.js" defer></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
 
     <link rel="icon" href="favicon.ico">
@@ -54,7 +54,7 @@
     <main>
         <section class="hero">
             <h2 class="visually-hidden">Welcome to Santander Chamber of Commerce</h2>
-            <img src="images/herohorizontal.jpeg" alt="Santander city view">
+            <img src="images/herohorizontal.jpeg" alt="Santander city view" width="1200" height="600">
             <a class="hero-join" href="#">Join the Chamber</a>
         </section>
         <h1 class="home-title">Home</h1>
@@ -74,7 +74,7 @@
                 <h2>Weather</h2>
                 <div class="weather-container">
                     <div class="weather-icon">
-                        <img id="weather-icon" src="images/thermometer-low.svg" alt="Weather Icon">
+                        <img id="weather-icon" src="images/thermometer-low.svg" alt="Weather Icon" width="100" height="100" fetchpriority="high">
                     </div>
                     <div class="weather-info">
                         <p>Temperature: <span id="temp"></span> °F</p>
@@ -101,7 +101,7 @@
         </section>
 
     </main>
-    
+
     <footer class="site-footer">
         <div class="footer-content">
 
