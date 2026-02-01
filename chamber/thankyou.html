@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to the Santander Chamber of Commerce. Supporting local businesses and community growth.">
+    <meta name="description" content="Discover local businesses and organizations that collaborate with the Santander Chamber of Commerce through our official business directory.">
     <meta name="author" content="Irma Valeria Natalia Rodriguez Cárdenas">
-    <title>Home - Santander Chamber</title>
+    <title>Thank you - Santander Chamber</title>
 
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-    <script src="scripts/spotslights.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <script src="scripts/thanks.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,54 +53,21 @@
     </header>
 
     <main>
-        <section class="hero">
-            <h2 class="visually-hidden">Welcome to Santander Chamber of Commerce</h2>
-            <img src="images/herohorizontal.jpeg" alt="Santander city view" width="1200" height="600">
-            <a class="hero-join" href="join.html">Join the Chamber</a>
+        <section class="thank-you-box">
+            <h1>Thank You for Applying!</h1>
+            <p>Here is the information you submitted:</p>
+
+            <ul>
+                <li><strong>First Name:</strong> <span id="fname"></span></li>
+                <li><strong>Last Name:</strong> <span id="lname"></span></li>
+                <li><strong>Email:</strong> <span id="email"></span></li>
+                <li><strong>Phone:</strong> <span id="phone"></span></li>
+                <li><strong>Business/Organization:</strong> <span id="business"></span></li>
+                <li><strong>Application Timestamp:</strong> <span id="timestamp"></span></li>
+            </ul>
+
+            <p>We will contact you soon!</p>
         </section>
-        <h1 class="home-title">Home</h1>
-
-        <div class="home-cards">
-
-            <div class="info-card">
-                <h2>Events</h2>
-                <ul>
-                    <li>January 20 - Business Bruch (8:00 AM)</li>
-                    <li>February 01 - Marketing Conference (6:00 PM)</li>
-                    <li>February 15 - Networking show (7:00 PM)</li>
-                </ul>
-            </div>
-
-            <div class="info-card weather-card">
-                <h2>Weather</h2>
-                <div class="weather-container">
-                    <div class="weather-icon">
-                        <img id="weather-icon" src="https://openweathermap.org/img/wn/04d@2x.png" alt="Weather Icon" width="100" height="100" srcset="https://openweathermap.org/img/wn/04d@2x.png 2x">
-                    </div>
-                    <div class="weather-info">
-                        <p>Temperature: <span id="temp"></span> °F</p>
-                        <p>Description: <span id="description"></span></p>
-                        <p>High: <span id="high"></span> °F</p>
-                        <p>Low: <span id="low"></span> °F</p>
-                        <p>Humidity: <span id="humidity"></span>%</p>
-                        <p>Sunrise: <span id="sunrise"></span></p>
-                        <p>Sunset: <span id="sunset"></span></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="info-card">
-                <h2>3-Day Forecast</h2>
-                <ul id="forecast-list"></ul>
-            </div>
-
-        </div>
-
-        <section class="spotlights">
-            <h2 class="sr-only">Spotlight Members</h2>
-            <div class="spotlight-cards" id="spotlight-cards"></div>
-        </section>
-
     </main>
 
     <footer class="site-footer">
