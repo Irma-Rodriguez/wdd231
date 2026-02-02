@@ -358,12 +358,6 @@ main {
 
 /******** Animation ********/
 
-.membership-cards .card {
-  opacity: 0; 
-  transform: translateY(20px); 
-  transition: opacity 0.8s ease, transform 0.8s ease;
-}
-
 .membership-cards .card.show {
   opacity: 1; 
   transform: translateY(0); 
@@ -420,6 +414,11 @@ legend {
   margin-bottom: 1.5rem;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
   text-align: center;
+
+  /* animación */
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .membership-cards button {
@@ -510,31 +509,29 @@ input[type="submit"]:hover {
 }
 
 .thank-you-box {
-    max-width: 600px;                  /* Tamaño máximo del recuadro */
-    margin: 3rem auto;                 /* Centrado horizontal y margen superior */
-    padding: 2rem;                     /* Espacio interno */
-    background-color: white;           /* Fondo blanco */
-    border-radius: 10px;               /* Bordes redondeados */
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);  /* Sombra */
-    text-align: center;                /* Centra texto dentro del recuadro */
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
 }
 
-/* Lista dentro del recuadro */
 .thank-you-box ul {
-    list-style: none;      /* Sin viñetas */
+    list-style: none;
     padding: 0;
-    margin: 1rem auto;     /* Separación arriba y abajo */
-    text-align: left;      /* Texto de la lista alineado a la izquierda */
+    margin: 1rem auto;
+    text-align: left;
 }
 
 .thank-you-box ul li {
-    margin-bottom: 0.5rem; /* Espacio entre elementos */
+    margin-bottom: 0.5rem;
 }
 
-/* Opcional: título y párrafos un poquito más elegantes */
 .thank-you-box h1 {
     margin-bottom: 1rem;
-    color: #192b44; /* Azul oscuro como tu esquema de colores */
+    color: #192b44; 
 }
 
 .thank-you-box p {

@@ -71,7 +71,7 @@
 
                 <label>
                     Organizational Title
-                    <input type="text" name="orgtitle" title="Your title in the organization" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" placeholder="General Manager">
+                    <input type="text" name="orgtitle" title="Your title in the organization" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" placeholder="Business Owner">
                 </label>
 
                 <label>
@@ -152,39 +152,46 @@
         <dialog id="np-modal">
             <h3>NP Membership Benefits</h3>
             <ul>
-                <li>Free listing</li>
-                <li>Community events</li>
+                <li>Free business listing in the directory</li>
+                <li>Access to one free networking event per year</li>
+                <li>One-month trial with Gold-level benefits</li>
+                <li>Basic access to community resources</li>
             </ul>
-            <button onclick="this.closest('dialog').close()">Close</button>
+            <button class="close-modal">Close</button>
             </dialog>
 
             <dialog id="bronze-modal">
             <h3>Bronze Membership Benefits</h3>
             <ul>
-                <li>Basic exposure</li>
-                <li>Event access</li>
+                <li>Access to member-only networking events</li>
+                <li>Basic business listing on the website</li>
+                <li>Limited promotional opportunities</li>
+                <li>Monthly newsletter subscription</li>
             </ul>
-            <button onclick="this.closest('dialog').close()">Close</button>
+            <button class="close-modal">Close</button>
             </dialog>
 
             <dialog id="silver-modal">
             <h3>Silver Membership Benefits</h3>
             <ul>
-                <li>More visibility</li>
-                <li>Training benefits</li>
+                <li>Priority access to training workshops and classes</li>
+                <li>Enhanced business directory listing</li>
+                <li>Participation in multiple networking events</li>
+                <li>Discounts on special chamber programs</li>
             </ul>
-            <button onclick="this.closest('dialog').close()">Close</button>
+            <button class="close-modal">Close</button>
             </dialog>
 
             <dialog id="gold-modal">
             <h3>Gold Membership Benefits</h3>
             <ul>
-                <li>Maximum exposure</li>
-                <li>Premium benefits</li>
+                <li>Premium business promotion across chamber platforms</li>
+                <li>Featured spotlight placement on the homepage</li>
+                <li>Unlimited access to exclusive events and activities</li>
+                <li>Advanced training sessions and leadership classes</li>
             </ul>
-            <button onclick="this.closest('dialog').close()">Close</button>
+            <button class="close-modal">Close</button>
             </dialog>
-
 
     </main>
 

@@ -10,8 +10,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  document.querySelectorAll(".close-modal").forEach(button => {
+    button.addEventListener("click", () => {
+      button.closest("dialog").close();
+    });
+  });
+
   const cards = document.querySelectorAll(".membership-cards .card");
   cards.forEach((card, index) => {
     setTimeout(() => card.classList.add("show"), 200 * index);
   });
+
 });
