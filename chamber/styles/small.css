@@ -477,7 +477,8 @@ dialog button {
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
-  margin-top: 1rem;
+  display: block;
+  margin: 1.25rem auto 0;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -488,11 +489,6 @@ dialog button:hover {
 
 dialog button:active {
   transform: scale(0.97);
-}
-
-dialog button {
-  display: block;
-  margin: 1.25rem auto 0;
 }
 
 input[type="submit"] {
