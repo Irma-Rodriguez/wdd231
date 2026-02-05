@@ -1,0 +1,53 @@
+:root {
+      --dark-green: #144d1d;
+      --light-green: #e8f5e9;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #e8f5e9;
+  color: #000;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #144d1d;
+  color: #ffffff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  color: #ffffff;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 6px solid #144d1d;
+}
+
+h1, h2, h3 {
+  color: #144d1d;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: #144d1d;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+}
