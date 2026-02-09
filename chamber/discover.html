@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover local businesses and organizations that collaborate with the Santander Chamber of Commerce through our official business directory.">
+    <meta name="description" content="Welcome to the Santander Chamber of Commerce. Supporting local businesses and community growth.">
     <meta name="author" content="Irma Valeria Natalia Rodriguez Cárdenas">
-    <title>Directory - Santander Chamber</title>
+    <title>Discover - Santander Chamber</title>
 
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/discover.js" type="module"></script>
+    <script src="scripts/visits.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,17 +51,23 @@
     </header>
 
     <main>
-        <section class="page-title">
-            <h1>Business Directory</h1>
-            <div class="view-buttons">
-                <img src="images/grid-3x3-gap-fill.svg" alt="Grid view" id="gridView">
-                <img src="images/list-ul.svg" alt="List view" id="listView">
-            </div>
-        </section>
+        <h2 class="discover-title">Discover Santander</h2>
+        <div id="visit-message" class="visit-message">
+            <button class="close-visit" aria-label="Close message">✕</button>
+            <span id="visit-text"></span>
+        </div>
 
-        <section id="members" class="grid-view">
-            <h2>Our Chamber Members</h2>
-        </section>
+        <div class="discover-grid" id="discoverGrid"></div>
+
+        <div id="discover-modal" class="discover-modal">
+            <div class="modal-content">
+                <h2 id="modal-title">Place details</h2>
+                <p id="modal-cost"></p>
+                <p id="modal-description"></p>
+                <button id="close-modal">Close</button>
+            </div>
+        </div>
+
     </main>
 
     <footer class="site-footer">
@@ -91,4 +97,4 @@
     </footer>
 
 </body>
-</html>            
+</html>
