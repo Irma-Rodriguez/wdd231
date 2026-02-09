@@ -1,11 +1,3 @@
-const menuButton = document.getElementById("ham-btn");
-const nav = document.getElementById("nav-bar"); 
-
-menuButton.addEventListener("click", () => {
-    nav.classList.toggle("show"); 
-    menuButton.innerHTML = nav.classList.contains("show") ? "&#215;" : "&#9776;";
-});
-
 import { places } from "../data/discover.mjs";
 
 const grid = document.querySelector("#discoverGrid");
