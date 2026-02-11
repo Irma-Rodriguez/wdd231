@@ -12,6 +12,11 @@ body {
   padding: .5rem 1rem;
 }
 
+.header,
+.header a {
+  color: white;
+}
+
 .branding {
   display: flex;
   align-items: center;
