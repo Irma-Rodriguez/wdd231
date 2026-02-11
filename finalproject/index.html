@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Planting Club - promoting plant care and conservation in Colombia.">
+    <meta name="author" content="Irma Valeria Natalia Rodriguez Cárdenas">
+    <title>Home - Planting club</title>
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/weather.js" type="module" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="leaffavicon.ico">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Home - Planting club">
+    <meta property="og:description" content="Planting Club - learning and caring for Colombian plants together.">
+    <meta property="og:image" content="https://irma-rodriguez.github.io/wdd231/chamber/images/santanderfac.jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://irma-rodriguez.github.io/wdd231/chamber/directory.html">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="branding">
+            <img src="images/leaf-fill.svg" alt="Planting Club logo" width="40" height="40">
+            <span class="site-name">Planting Club</span>
+        </div>
+
+        <button id="ham-btn" class="hamburger" aria-label="Open navigation menu"></button>
+
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="plants.html">Plants</a></li>
+                <li><a href="membership.html">Membership</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="images/heroimage.webp" alt="Lush Colombian tropical plants" loading="lazy">
+
+            <div class="hero-text">
+                <h1>Welcome to the Planting Club</h1>
+                <p>Discover Colombian plants, learn how to care for them, and join a community passionate about sustainability and nature.</p>
+                <a href="membership.html" class="cta-btn">Become a Member</a>
+            </div>
+        </section>
+
+        <div class="home-grid">
+
+            <section class="activities">
+                <h2>Monthly Activities</h2>
+                <div class="activities-container">
+                <article>
+                    <h3>Plant Conferences</h3>
+                    <p>Learn from experts about native Colombian plants.</p>
+                </article>
+                <article>
+                    <h3>Nature Hiking</h3>
+                    <p>Explore local ecosystems and identify plant species.</p>
+                </article>
+                <article>
+                    <h3>Seed Collection</h3>
+                    <p>Practice sustainable seed harvesting techniques.</p>
+                </article>
+                <article>
+                    <h3>Home Garden Workshop</h3>
+                    <p>Learn how to grow and maintain your own garden at home.</p>
+                </article>
+                </div>
+            </section>
+
+            <section class="weather">
+                <h2>Weather Conditions for Colombian Plants</h2>
+                <div class="weather-container">
+                <div class="weather-image">
+                    <img id="weatherIcon" src="" alt="Weather icon">
+                </div>
+                <div class="weather-info">
+                    <p><strong>Temperature:</strong> <span id="temp"></span> °C</p>
+                    <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+                    <p><strong>Conditions:</strong> <span id="description"></span></p>
+                </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+
+            <div class="footer-left">
+                <h2>Planting club</h2>
+                <p>Street 123 #5-6</p>
+                <p>Colombia</p>
+                <p>planting_club123@gmail.com</p>
+            </div>
+
+            <div class="footer-center">
+                <a href="https://www.youtube.com/"><img src="images/youtube.svg" alt="YouTube"></a>
+                <a href="https://x.com/"><img src="images/twitter.svg" alt="Twitter"></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+            </div>
+
+            <div class="footer-right">
+                <p>WDD231 Final Project</p>
+                <p>Irma Valeria Rodríguez Cárdenas</p>
+                <p>©2026 Colombia - Planting club</p>
+                <p>Last modification: <span id="lastModified"></span></p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
