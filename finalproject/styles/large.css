@@ -76,4 +76,8 @@
   .weather-info {
     text-align: left;
   }
+
+  .plants-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

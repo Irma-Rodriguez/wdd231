@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Orchid",
+        "region": "Andes",
+        "sunlight": "Indirect light",
+        "water": "Moderate",
+        "description": "Colombia has the greatest variety of orchids in the world. They grow in humid forests and are known for their vibrant colors and delicate shapes.",
+        "image": "images/orchid.webp"
+    },
+    {
+        "name": "Guayacán Tree",
+        "region": "Caribbean",
+        "sunlight": "Full sun",
+        "water": "Low to moderate",
+        "description": "The Guayacán is famous for its bright yellow flowers that bloom during the dry season, covering entire landscapes with color.",
+        "image": "images/guayacan.webp"
+    },
+    {
+        "name": "Frailejón",
+        "region": "Páramo",
+        "sunlight": "Full sun",
+        "water": "Low",
+        "description": "Frailejones grow in high-altitude páramos and help store water in their thick leaves, playing a vital role in Colombia’s water ecosystem.",
+        "image": "images/frailejon.webp"
+    },
+    {
+        "name": "Heliconia",
+        "region": "Amazon",
+        "sunlight": "Partial sun",
+        "water": "High",
+        "description": "Heliconias are tropical plants with striking red, orange, and yellow bracts. They attract hummingbirds and thrive in humid climates.",
+        "image": "images/heliconia.webp"
+    },
+    {
+        "name": "Coffee Plant",
+        "region": "Coffee Region",
+        "sunlight": "Partial sun",
+        "water": "Moderate",
+        "description": "Coffee plants are one of Colombia´s most important crops. They grow in mountainous regions and require consistent rainfall.",
+        "image": "images/coffeeplant.webp"
+    },
+    {
+        "name": "Wax Palm",
+        "region": "Andes",
+        "sunlight": "Full sun",
+        "water": "Moderate",
+        "description": "The Wax Palm is Colombia’s national tree and the tallest palm species in the world, found in the Cocora Valley.",
+        "image": "images/waxpalm.webp"
+    },
+    {
+        "name": "Bougainvillea",
+        "region": "Caribbean",
+        "sunlight": "Full sun",
+        "water": "Low",
+        "description": "Bougainvillea is known for its bright pink and purple bracts. It thrives in warm climates and requires little water.",
+        "image": "images/bougainvillea.webp"
+    },
+    {
+        "name": "Bromeliad",
+        "region": "Rainforest",
+        "sunlight": "Indirect light",
+        "water": "Moderate",
+        "description": "Bromeliads often grow attached to trees and collect water in their leaves. They are common in Colombian rainforests.",
+        "image": "images/bromeliad.webp"
+    },
+    {
+        "name": "Ceiba Tree",
+        "region": "Amazon",
+        "sunlight": "Full sun",
+        "water": "Moderate",
+        "description": "The Ceiba is a massive tropical tree considered sacred in many indigenous cultures. It can grow extremely tall.",
+        "image": "images/ceibatree.webp"
+    },
+    {
+        "name": "Passion Flower",
+        "region": "Andes",
+        "sunlight": "Full sun",
+        "water": "Moderate",
+        "description": "The passion flower produces beautiful complex blooms and is also the source of passion fruit.",
+        "image": "images/passionflower.webp"
+    },
+    {
+        "name": "Cacao Plant",
+        "region": "Amazon",
+        "sunlight": "Partial shade",
+        "water": "High",
+        "description": "Cacao trees produce the beans used to make chocolate. They grow best in warm and humid climates.",
+        "image": "images/cacaoplant.webp"
+    },
+    {
+        "name": "Guadua Bamboo",
+        "region": "Coffee Region",
+        "sunlight": "Full sun",
+        "water": "Moderate",
+        "description": "Guadua is a strong bamboo species used in sustainable construction throughout Colombia.",
+        "image": "images/guadua.webp"
+    },
+    {
+        "name": "Rose of Castile",
+        "region": "Andes",
+        "sunlight": "Full sun",
+        "water": "Moderate",
+        "description": "A popular ornamental flower cultivated in Colombia’s flower industry and exported worldwide.",
+        "image": "images/roseofcastile.webp"
+    },
+    {
+        "name": "Areca Palm",
+        "region": "Tropical regions",
+        "sunlight": "Indirect light",
+        "water": "Moderate",
+        "description": "The Areca Palm is commonly used as an ornamental plant in warm areas and indoor spaces.",
+        "image": "images/arecapalm.webp"
+    },
+    {
+        "name": "Mangrove",
+        "region": "Pacific Coast",
+        "sunlight": "Full sun",
+        "water": "High",
+        "description": "Mangroves grow in coastal ecosystems and protect shorelines while providing habitat for many species.",
+        "image": "images/mangrove.webp"
+    }
+]
