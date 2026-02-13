@@ -80,4 +80,8 @@
   .plants-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .benefits-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

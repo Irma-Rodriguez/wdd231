@@ -12,7 +12,7 @@
 
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/weather.js" type="module"></script>
+    <script src="scripts/thankyou.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,7 @@
     <link rel="icon" href="leaffavicon.ico">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Home - Planting club">
+    <meta property="og:title" content="Thank you - Planting club">
     <meta property="og:description" content="Planting Club - learning and caring for Colombian plants together.">
     <meta property="og:image" content="https://irma-rodriguez.github.io/wdd231/finalproject/images/colombia.webp">
     <meta property="og:image:width" content="1200">
@@ -48,56 +48,9 @@
 
     </header>
 
-    <main>
-        <section class="hero">
-            <img src="images/heroimage.webp" alt="Lush Colombian tropical plants" loading="lazy">
-
-            <div class="hero-text">
-                <h1>Welcome to the Planting Club</h1>
-                <p>Discover Colombian plants, learn how to care for them, and join a community passionate about sustainability and nature.</p>
-                <a href="membership.html" class="cta-btn">Become a Member</a>
-            </div>
-        </section>
-
-        <div class="home-grid">
-
-            <section class="activities">
-                <h2>Monthly Activities</h2>
-                <div class="activities-container">
-                <article>
-                    <h3>Plant Conferences</h3>
-                    <p>Learn from experts about native Colombian plants.</p>
-                </article>
-                <article>
-                    <h3>Nature Hiking</h3>
-                    <p>Explore local ecosystems and identify plant species.</p>
-                </article>
-                <article>
-                    <h3>Seed Collection</h3>
-                    <p>Practice sustainable seed harvesting techniques.</p>
-                </article>
-                <article>
-                    <h3>Home Garden Workshop</h3>
-                    <p>Learn how to grow and maintain your own garden at home.</p>
-                </article>
-                </div>
-            </section>
-
-            <section class="weather">
-                <h2>Weather Conditions for Colombian Plants</h2>
-                <div class="weather-container">
-                <div class="weather-image">
-                    <img id="weatherIcon" src="images/thermometer-half.svg" alt="Weather icon">
-                </div>
-                <div class="weather-info">
-                    <p><strong>Temperature:</strong> <span id="temp"></span> °C</p>
-                    <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
-                    <p><strong>Conditions:</strong> <span id="description"></span></p>
-                </div>
-                </div>
-            </section>
-
-        </div>
+    <main class="thankyou-main">
+        <h1>Thank You for Joining!</h1>
+        <div id="results"></div>
     </main>
 
     <footer class="site-footer">
