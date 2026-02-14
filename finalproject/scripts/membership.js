@@ -15,5 +15,7 @@ const savedName = localStorage.getItem("memberName");
 
 if (savedName && welcome) {
   welcome.textContent = `Welcome back, ${savedName}!`;
+} else if (welcome) {
+  welcome.style.display = "none";
 }
 

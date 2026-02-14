@@ -278,7 +278,10 @@ body {
   width: 32px;
   height: 32px;
   font-size: 1rem;
+  line-height: 10px;
+  text-align: center;
   cursor: pointer;
+  padding-left: 10px;
   transition: background-color 0.3s ease;
 }
 
@@ -402,6 +405,15 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+.site-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
 }
 
 .footer-left,
